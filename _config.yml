@@ -6,7 +6,7 @@ title: Clean Blog
 header-img: img/home-bg.jpg
 email: 
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: /
+baseurl: ""
 url: "http://mycuddleclub.github.io/cuddleclub-site/"
 twitter_username: 
 github_username:  mycuddleclub
