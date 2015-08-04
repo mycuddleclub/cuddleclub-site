@@ -1,4 +1,7 @@
-# Site settings
+---
+port: 4000
+host: 0.0.0.0
+
 title: Clean Blog
 header-img: img/home-bg.jpg
 email: 
