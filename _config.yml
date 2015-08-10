@@ -2,15 +2,15 @@
 port: 4000
 host: 0.0.0.0
 
-title: Clean Blog
+title: My Cuddle Club
 header-img: img/home-bg.jpg
-email: 
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "http://mycuddleclub.github.io/cuddleclub-site"
-url: "http://mycuddleclub.github.io/cuddleclub-site/"
-twitter_username: 
-github_username:  mycuddleclub
-facebook_username:  
+email: daniel@mycuddleclub.com
+description: "My Cuddle Club"
+baseurl: ""
+url: "/"
+twitter_username:
+github_username:
+facebook_username:
 
 # Build settings
 markdown: kramdown

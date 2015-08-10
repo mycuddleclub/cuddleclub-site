@@ -2,6 +2,7 @@ body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #404040;
+   overflow-x:hidden;
 }
 p {
   line-height: 1.5;
@@ -394,4 +395,50 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #0085a1;
+}
+.right-on-time-wrapper{
+  background-image:url('/img/rightontime.jpg');
+  background-size: 100% auto;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  margin:0 -40%;
+}
+.right-on-time{
+  margin:0 auto;
+  width:1170px;
+  padding:50px 15%;
+  color:#ffffff;
+}
+@media screen and (max-width:920px){
+  .right-on-time-wrapper{ margin:0 -12%; width:123%; }
+  .right-on-time{ width:750px; padding:50px 15px; }
+}
+@media screen and (max-width:768px) {
+  .right-on-time-wrapper{
+    background-size:auto 100%;
+    width:107%;
+    margin:0 -15px;
+  }
+  .right-on-time{
+    width:auto;
+    padding:50px 20px;
+  }
+}
+@media screen and (max-width:415px) {
+  .right-on-time-wrapper{ width:100%; background-image:none; }
+  .right-on-time{
+    color:#404040;
+    padding:20px 15px;
+  }
+}
+
+.signup-wrapper{
+  margin:0 -9999em;
+  background-color: #eaeaea;
+  padding:50px 0;
+}
+
+.signup{
+  margin:0 auto;
+  width:750px;
 }
